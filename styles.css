@@ -85,7 +85,43 @@ a {
   color: #f9faf8;
 }
 
-.mountain {
-  width: 250px;
-  height: 250px;
+.info > h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
+  margin: 40px;
+}
+
+.pic-para > img {
+  border: solid 4px #3882f6;
+  
+}
+
+.pic-para {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-img img {
+  width: 200px;
+  height: 190px;
+  border: solid 4px #3882f6;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.info-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-img p {
+  width: 200px;
+  height: 190px;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin: 6px;
 }
