@@ -125,3 +125,19 @@ a {
   overflow-wrap: break-word;
   margin: 6px;
 }
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 120px 200px;
+  text-align: center;
+}
+.testimonial p {
+  font-size: 36px;
+  color: #1f2937;
+  margin: 0 auto;
+}
+
+.testimonial h2 {
+  text-align: right;
+  margin: 0 25px 0 0;
+}
